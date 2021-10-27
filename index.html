@@ -13,109 +13,220 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link href='https://fonts.googleapis.com/css?family=Barlow Semi Condensed' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <style>
-        .page-background {
-            background-color: #F8F8F8;
-            background-size: cover;
-            height: 100vh;
-        }
-        .cta {
-            position: relative;
-            top: 35%;
-            transform: translateY(-35%);
-            background: rgba(0, 0, 0, 0);
-            padding: 2rem;
-        }
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: "Barlow Semi Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          font-size: 16px;
-          line-height: 1.5;
-          color: $body-text-color;
-        }
-        h3{
-          line-height: 1.5;
-          font-family: "Barlow Semi Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          color: #101620;
-        }
-        p{
-          font-family: "Barlow Semi Condensed";
-          font-weight: 400;
-          line-height: 1.5em;
-          color: #768096;
-          font-size: 21px;
-
-        }
-        .round-button {
-          border-radius: 5px;
-          border-color: #009cff;
-          background-color: #009cff;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="popper.min.js" ></script>
+    <script type="text/javascript" src="lottie-player.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
     <title>Ogarantia</title>
 
 
 </head>
+
 <body class="page-background">
-   <br>
-   <br>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="ogarantia_logoBlue_nameBlack.png" height=40>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://ogarantia.com">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#TheCompany">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Technology">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#CaseStudy">Case Study</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
    <div class="container">
+
+   <!-- <div class="row">
+     <div class="col-lg-1 col-lg-1"></div>
+     <div class="col-lg-10 col-sm-10">
+       <br>
+       <a href="https://ogarantia.com">
+         <img src="ogarantia_logoBlue_nameBlack.svg" height=40>
+       </a>
+     </div>
+     <div class="col-lg-1 col-lg-1"></div>
+    </div> -->
+
     <div class="row">
       <div class="col-lg-1 col-lg-1"></div>
       <div class="col-lg-10 col-sm-10">
-            <a href="https://ogarantia.com">
-              <img src="ogarantia_logo_blue.svg" height=80>
-            </a>
-            <br>
-            <br>
-            <p>Ogarantia builds software and solutions to improve performance of AI systems</p>
+        <br>
+        <br>
 
-            <p class="text-left">
-              We believe that AI algorithms are missing out on groundbreaking mathematical
-              techniques that are too complex to be used out of the box when deploying AI
-              in production
-            </p>
-            <br>
-            <h3>Technology</h3>
-            <br>
-            <div class="row">
-              <div class="col-lg-3">
-                <img src="geometric_computational_engine.svg" height=140>
-              </div>
-              <div class="col-lg-9">
-                <p>Under the hood, our product leverages the power of geometric computational engines to enable clients to
-                  design and deploy machine-learning systems that are “geometry aware” -- they take into account the
-                  intrinsic geometry in the data in order to deliver higher accuracy and robustness to the application.
-                </p>
-              </div>
+        <div class="lottie-bg">
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_3GxFSt.json"  background="transparent"
+          speed="1"  style="width: 100%; height: 350px; z-index: -1"  loop  autoplay></lottie-player>
+        </div>
+
+        <h3 class="blue-title text-center">Unifying AI and Geometry</h3>
+        <p class="text-center">
+          We are closing the gap between groundbreaking mathematical
+          techniques and algorithm design, to enable the deployment of robust AI
+          in production
+        </p>
+      </div>
+      <div class="col-lg-1 col-lg-1"></div>
+     </div>
+
+    <div class="break">
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-1 col-lg-1"></div>
+      <div class="col-lg-10 col-sm-10">
+
+      <h3 class="blue-section-title" id="TheCompany">The Company</h3>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6" style="text-align: center;">
+          <img src="cliffnn.svg" height=140>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p>We believe that AI algorithms are missing out on groundbreaking
+            mathematical techniques that are too complex to be used out of the
+            box when deploying AI in production. Our team of AI researchers,
+            software engineers, and seasoned entrepreneurs are driven by the
+            mission to make a great product that removes the roadblocks to
+            adopting the latest and greatest technology in industrial scenarios.
+          </p>
+        </div>
+      </div>
+
+      <br>
+      <h3 class="blue-section-title" id="Technology">Technology</h3>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6" style="text-align: center;">
+          <img src="geometric_computational_engine.svg" height=180>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p>Under the hood, our product leverages the power of geometric computational engines to enable clients to
+            design and deploy machine-learning systems that are “geometry aware” -- they take into account the
+            intrinsic geometry in the data in order to deliver higher accuracy and robustness to the application.
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6" style="text-align: center;">
+          <a href="https://www.youtube.com/watch?v=TCSfBpSQpjg">
+          <img src="bunny.svg" alt="bunny" width="200px">
+          </a>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p>Geometric computation is an ensemble of mathematical techniques
+            that allows for efficient parameterization of geometric
+            transformations. In the past decade, the Ogarantia team has been a
+            key contributor to the advance of geometric computation for machine
+            learning, with several papers published in the subject (for example,
+            <a href="https://ieeexplore.ieee.org/document/8712440">this</a> and
+            <a href="https://ieeexplore.ieee.org/document/7460183/">this</a>) and
+            multiple citations, becoming the catalist of a new AI research field.
+            This is a great advantage that allows us to directly incorporate and test the
+            latest ideas within our products</p>
+        </div>
+      </div>
+
+      <br>
+      <h3 class="blue-section-title" id="Product">Product</h3>
+      <br>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6" style="text-align: center;">
+          <img src="ogarantia-product.svg" height=220>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <p>Our software sits on the interface between computational infrastructure and ML algorithms,
+            helping AI designers to achieve the required level of performance without the need for months of R&D.</p>
+
+          <p>Ogarantia software is compatible with the standard tools used in the development of AI systems, e.g.,
+            Tensorflow. It can be easily installed in any computing system that supports
+            Docker containers -- For example, Windows, Linux, and Mac. This enables us to supply the
+            large majority of AI designers out there.
+          </p>
+        </div>
+      </div>
+
+
+        <br>
+        <h3 class="blue-section-title" id="CaseStudy">Case Study (Deployment in Embeeded Devices)</h3>
+        <br>
+        <div class="row">
+          <div class="col-lg-6 col-sm-6" style="text-align: center;">
+            <!-- Trigger the Modal -->
+            <img src="chart.svg" height=220 id="chart" alt="To the right of the
+            flipping point (point 1), i.e., when the number of parameters in
+            the neural network model is greater than 500K, Ogarantia
+            consistently delivers higher accuracy performance. Modern
+            neural networks operate in this region. At point 2, we have the
+            sweet spot where Ogarantia achieves the same performance as standard
+            Tensorflow with 90% less parameters. If one needs the absolutely
+            highest performance, at Point 3, Ogarantia delivers extra 4.5
+            log-evidence, well above what is achieved by Tensorflow.">
+            <!-- The Modal -->
+            <div id="chart_modal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
             </div>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <p>Our computing engine offers a new way, besides
+            quantization and pruning, to obtain compact neural networks without
+            sacrificing performance. This example highlights the benefits of
+            using Ogarantia when targetting deployment in embedded devices, a
+            task that requires minimizing the neural network footprint
+            (size and power consumption). Click on the image for detailed
+            information.</p>
+          </div>
+        </div>
 
-            <br>
-            <br>
-            <!-- <p>Sign up to stay in touch</p>
-            <form action="https://submit-form.com/NJv9N9KF" class="form-inline justify-content-left">
-              <input type="email" name="email" class="form-control form-control-lg mr-4" placeholder="Your email">
-              <button type="submit" class="btn btn-lg btn-danger round-button">Sign up</button>
-            </form> -->
-            <br>
-            <br>
-            <br>
+
+        <br>
       </div>
       <div class="col-lg-1 col-sm-1"></div>
     </div>
    </div>
 
-   <footer class="bg-light text-center fixed-bottom">
+   <footer class="bg-light text-center" id="Contact">
      <!-- Grid container -->
      <div class="container p-4 pb-0">
        <!-- Section: Social media -->
@@ -173,6 +284,7 @@
      <!-- Copyright -->
    </footer>
 
+<script type="text/javascript" src="custom.js"></script>
 </body>
 
 
