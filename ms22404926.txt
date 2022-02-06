@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "ogarantia.com",
+  "Id": "784bafba-62f8-4205-b3d7-e59568f3d6a6"
+}
